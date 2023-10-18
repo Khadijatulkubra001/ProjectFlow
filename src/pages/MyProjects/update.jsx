@@ -3,6 +3,7 @@ import { Sidebar } from "react-pro-sidebar";
 import { Button, Text, MyDatePicker } from "components";
 import { useNavigate } from "react-router-dom";
 
+
 const ProjectDetailsPage = () => {
   const navigate = useNavigate();
   const [selectedDueDate, setSelectedDueDate] = useState(null);
