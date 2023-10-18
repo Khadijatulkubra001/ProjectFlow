@@ -99,7 +99,7 @@ const MyProjectsPage = () => {
                     key={project.id}
                     className="common-pointer bg-cover bg-no-repeat flex flex-1 flex-col h-[252px] items-center justify-end p-7 sm:px-5 w-full"
                     style={{ backgroundImage: "url('images/img_group6.svg')" }}
-                    onClick={() => navigate(`/updateproject/${project.id}`)}
+                    onClick={() => navigate(`/updateproject`)}
                     
                   >
                     
